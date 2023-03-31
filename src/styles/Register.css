@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*-----Common-----*/
+body{
+    background-image: url(https://wallpaperset.com/w/full/f/6/7/142016.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+  }
+
+.container{
+   padding-top: 5rem;
+   /* padding-left: 20rem; */
+}
+
+.heading{
+    /* padding-top: 5rem; */
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 3px rgb(246, 161, 91);
+}
+
+.form{
+    padding-left: 25rem;
+    margin: 2rem;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 3px rgb(150, 243, 169);
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+label{
+    margin-top: 5px;
+    
+}
+
+input{
+    margin-left: 3rem;
+    margin-top: 25px;
+    font-size: 15px;
+    border-radius: 4px;
+    height: 25px;
+    width: 15rem;
+    border: 2px solid black;
+}
+
+button{
+    margin: 2rem 2rem 2rem 15rem;
+    padding: 5px 15px 5px 15px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+
+}
+
+.fBtn{
+    text-align: center;
+}
+
+a{
+    border: 2px solid rgb(137, 2, 2);
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    text-shadow: 1px 1px 3px rgb(158, 251, 163);
+    margin-left: 1rem;
+}
+
+.lbl{
+    color: blue;
+}
+/* DetailList */
+.detailForm{
+    margin : 1rem;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    .form{
+        padding-left: 12rem;
+        margin: 2rem;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 3px rgb(150, 243, 169);
+        border: 2px solid black;
+        border-radius: 20px;
+    
+    }
+}
+
+@media only screen and (max-width: 868px) {
+
+    .form{
+        padding-left: 6rem;
+        margin: 2rem;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 3px rgb(150, 243, 169);
+        border: 2px solid black;
+        border-radius: 20px;
+    
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .form{
+        display: grid;
+        padding-left: 6rem;
+        margin: 2rem;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 3px rgb(150, 243, 169);
+        border: 2px solid black;
+        border-radius: 20px;
+    
+    }
+
+    button{
+        margin: 2rem 2rem 2rem 11rem;
+        padding: 5px 15px 5px 15px;
+        font-size: 20px;
+        border: 2px solid black;
+        border-radius: 8px;
+    
+    }
+}
+
+
+@media only screen and (max-width: 475px) {
+
+    .form{
+        display: grid;
+        padding-left: 1rem;
+        margin: 1rem;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 3px rgb(150, 243, 169);
+        border: 2px solid black;
+        border-radius: 20px;
+    
+    }
+
+    .heading{
+        text-align: center;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 2px 2px 3px rgb(246, 161, 91);
+    }
+
+    button{
+        margin: 2rem 2rem 2rem 11rem;
+        padding: 5px 15px 5px 15px;
+        font-size: 20px;
+        border: 2px solid black;
+        border-radius: 8px;
+    
+    }
+}
