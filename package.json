@@ -1,5 +1,5 @@
 {
-
+  "proxy": "https://pharmacy-register-cyt4.onrender.com",
   "name": "dispensary_booking_system",
   "version": "0.1.0",
   "private": true,

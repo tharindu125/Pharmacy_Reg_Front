@@ -14,7 +14,7 @@ export default function AddFirstContact() {
     const addContact = async()=>{
         try {
         
-            const res = await fetch('https://pharmacy-register-cyt4.onrender.com/api/workouts',{
+            const res = await fetch('/api/workouts',{
                 method:'POST',
                 headers:{
                     'Content-Type':'application/json'
