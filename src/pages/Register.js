@@ -13,14 +13,17 @@ export default function AddFirstContact() {
     //add contact
     const addContact = async()=>{
         try {
-        
+            
             const res = await fetch('/api/workouts',{
                 method:'POST',
                 headers:{
                     'Content-Type':'application/json'
                 },
+                
                 body:JSON.stringify({f_name, l_name, m_number, email, password})
+               
             })
+            console.log("hhhh");
             const data = await res.json()
             if (!res.ok) {
                 const {error} = data;
